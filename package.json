@@ -3,23 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "tauri:dev": "tauri dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.0.10",
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@tauri-apps/api": "^1.4.0",
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
     "autoprefixer": "10.4.14",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
+    "lucide-react": "^0.252.0",
     "next": "13.4.6",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }
