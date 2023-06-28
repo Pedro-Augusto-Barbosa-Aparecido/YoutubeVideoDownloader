@@ -69,9 +69,11 @@
         "decorations": false,
         "fullscreen": false,
         "height": 600,
+        "minWidth": 500,
         "resizable": true,
         "title": "YoutubeDownloader",
-        "width": 800
+        "width": 800,
+        "theme": "Dark"
       }
     ]
   }
